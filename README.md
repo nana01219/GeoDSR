@@ -1,16 +1,31 @@
 # GeoDSR
 ## Learning Continuous Depth Representation via Geometric Spatial Aggregator
-## Accepted by AAAI 2023
+## Accepted by AAAI 2023 [[Paper]](https://arxiv.org/abs/2012.09700)
 Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 
 \* Equal contribution
 \*\* Corresponding author
 
-[[Project Website]](https://neuralchen.github.io/RainNet) [[Paper]](https://arxiv.org/abs/2012.09700)
+
 
 **The official repository with Pytorch**
 
 [![geodsrlogo](/docs/img/geodsrlogo.png)](https://github.com/nana01219/GeoDSR)
+
+
+## Dependencies
+- python3.7+
+- pytorch1.9+
+- torchvision
+
+## Usage
+### Pretrained Models:
+
+
+## Training
+
+## Licesnse
+For academic and non-commercial use only.The whole project is under the CC-BY-NC 4.0 license. See [LICENSE](https://github.com/nana01219/GeoDSR/blob/main/LICENSE)  for additional details.
 
 
 
@@ -29,7 +44,7 @@ If you find this Dataset useful in your research, please consider citing:
 ```
 
 ## Contact
-Please concat Xiaohang Wang [email](kairuif@princeton.com), Xuanhong Chen [email](xuanhongchenzju@outlook.com) for questions about the paper. 
+Please concat Xiaohang Wang [email](xygz2014010003@sjtu.edu.cn), Xuanhong Chen [email](xuanhongchenzju@outlook.com) for questions about the paper. 
 
 ## Related Projects
 
