@@ -44,7 +44,7 @@ If you find this Dataset useful in your research, please consider citing:
 ```
 
 ## Contact
-Please concat Xiaohang Wang [email](xygz2014010003@sjtu.edu.cn), Xuanhong Chen [email](xuanhongchenzju@outlook.com) for questions about the paper. 
+Please concat Xiaohang Wang [email](mailto:xygz2014010003@sjtu.edu.cn), Xuanhong Chen [email](mailto:xuanhongchenzju@outlook.com) for questions about the paper. 
 
 ## Related Projects
 
