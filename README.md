@@ -25,7 +25,7 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 ## Training
 
 ## Licesnse
-For academic and non-commercial use only.The whole project is under the CC-BY-NC 4.0 license. See [LICENSE](https://github.com/nana01219/GeoDSR/blob/main/LICENSE)  for additional details.
+For academic and non-commercial use only.The whole project is under the MIT license. See [LICENSE](https://github.com/nana01219/GeoDSR/blob/main/LICENSE)  for additional details.
 
 
 
