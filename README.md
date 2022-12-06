@@ -18,10 +18,10 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 - python3.7+
 - pytorch1.9+
 - torchvision
+- Nvidia apex
 
 ## Usage
 ### Pretrained Models:
-
 
 ## Training
 
@@ -29,45 +29,23 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 For academic and non-commercial use only. The whole project is under the MIT license. See [LICENSE](https://github.com/nana01219/GeoDSR/blob/main/LICENSE) for additional details.
 
 
-
 ## Citation
-If you find this Dataset useful in your research, please consider citing:
+If you find this project useful in your research, please consider citing:
 
 ```
-@misc{chen2020rainnet,
-  title={RainNet: A Large-Scale Dataset for Spatial Precipitation Downscaling},
-  author={Xuanhong Chen and Kairui Feng and Naiyuan Liu and Yifan Lu and Zhengyan Tong and Bingbing Ni and Ziang Liu and Ning Lin},
-  year={2020},
-  eprint={2012.09700},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
-} 
+
 ```
 
 ## Contact
 Please concat Xiaohang Wang [email](mailto:xygz2014010003@sjtu.edu.cn), Xuanhong Chen [email](mailto:xuanhongchenzju@outlook.com) for questions about the paper. 
 
+## Ackownledgements
+
 ## Related Projects
-
-**Please visit ou popular face swapping project**
-
-[![logo](./docs/img/logo1.png)](https://github.com/neuralchen/SimSwap)
-
-**Please visit our high-quality style transfer project**
-
-[![logo](./docs/img/logo.png)](https://github.com/neuralchen/ASMAGAN)
-
-**Please visit our high resolution face dataset VGGFace2-HQ**
-
-[![logo](./docs/img/vggface2_hq_compare.png)](https://github.com/NNNNAI/VGGFace2-HQ)
-
-**Please visit our AI-for-Science dataset RainNet**
-
-[![logo](./docs/img/2.png)](https://neuralchen.github.io/RainNet)
 
 Learn about our other projects 
 
-[[VGGFace2-HQ]](https://github.com/NNNNAI/VGGFace2-HQ);
+[[VGGFace2-HQ]](https://github.com/NNNNAI/VGGFace2-HQ): high resolution face dataset VGGFace2-HQ;
 
 [[RainNet]](https://neuralchen.github.io/RainNet);
 
@@ -77,6 +55,6 @@ Learn about our other projects
 
 [[Knowledge Style Transfer]](https://github.com/AceSix/Knowledge_Transfer);
 
-[[SimSwap]](https://github.com/neuralchen/SimSwap);
+[[SimSwap]](https://github.com/neuralchen/SimSwap): popular face swapping project;
 
-[[ASMA-GAN]](https://github.com/neuralchen/ASMAGAN);
+[[ASMA-GAN]](https://github.com/neuralchen/ASMAGAN): high-quality style transfer project;
