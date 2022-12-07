@@ -420,7 +420,7 @@ class GASA(nn.Module):
         self.long_res = long_res
         if self.long_res:
             self.res_conv = nn.Conv2d(in_channels=dim, out_channels=dim, kernel_size=3, stride=1, padding=1)
-        print("DASA condition --", num_groups, "x", num_blocks, group_A, long_res)
+        print("GASA condition --", num_groups, "x", num_blocks, group_A, long_res)
 
     def forward(self, x, scale):
         feat = self.encoder(x)

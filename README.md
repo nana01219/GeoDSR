@@ -11,7 +11,7 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 
 **The official repository with Pytorch**
 
-[![geodsrlogo](/docs/img/geodsrlogo.png)](https://github.com/nana01219/GeoDSR)
+[![PDF](/docs/img/code.jpg)](https://github.com/nana01219/GeoDSR)
 
 
 ## Dependencies
@@ -21,8 +21,8 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 - [Nvidia Apex](https://github.com/NVIDIA/apex) (python-only build is ok.)
 
 
-### Dataset
-We follow [Tang et al.](https://github.com/ashawkey/jiif) and use the same datasets. Please refer to [here](https://github.com/ashawkey/jiif/blob/main/data/prepare_data.md) to download the preprocessed dataset and extract them into `data/` folder.
+### Datasets
+We follow [Tang et al.](https://github.com/ashawkey/jiif) and use the same datasets. Please refer to [here](https://github.com/ashawkey/jiif/blob/main/data/prepare_data.md) to download the preprocessed datasets and extract them into `data/` folder.
 
 ### Pretrained Models
 - Baidu Netdisk (百度网盘)：https://pan.baidu.com/s/1e2rLQFqVHIy2ZZG922XNTA 
