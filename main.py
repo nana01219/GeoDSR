@@ -1,10 +1,6 @@
 import argparse
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-
-# OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=2 python main.py  --test --checkpoint best  --name Stage=lr-1=2layDSF=scale=RCAN_modulation_v2=16_fixed_fix --model JIIF  --dataset NYU  --scale 16
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -40,7 +36,6 @@ def get_dataset(name, data):
     return dataset
 
 parser = argparse.ArgumentParser()
-# parser.add_argument('--name', type=str, default='Mod_v2_2023=DSF_real60-0.2_b8_p256_c128_2GeoOP_vRestormer_ESA_res+res=8')
 parser.add_argument('--name', type=str, default='GASA_e400_s8')
 parser.add_argument('--epoch', default=400, type=int, help='max epoch')
 parser.add_argument('--AR_epoch',  default=200, type=int, help='epochs for the first stage')
