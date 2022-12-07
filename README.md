@@ -26,7 +26,7 @@ We follow [Tang et al.](https://github.com/ashawkey/jiif) and use the same datas
 
 ### Pretrained Models
 - Baidu Netdisk (百度网盘)：https://pan.baidu.com/s/1e2rLQFqVHIy2ZZG922XNTA 
-Extraction Code (提取码)：xu7e
+- Extraction Code (提取码)：xu7e
 
 Please put the model under `workspace/checkpoints` folder.
 
