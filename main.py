@@ -1,7 +1,7 @@
 import argparse
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=2 python main.py  --test --checkpoint best  --name Stage=lr-1=2layDSF=scale=RCAN_modulation_v2=16_fixed_fix --model JIIF  --dataset NYU  --scale 16
 
@@ -41,12 +41,12 @@ def get_dataset(name, data):
 
 parser = argparse.ArgumentParser()
 # parser.add_argument('--name', type=str, default='Mod_v2_2023=DSF_real60-0.2_b8_p256_c128_2GeoOP_vRestormer_ESA_res+res=8')
-parser.add_argument('--name', type=str, default='DASA_DSF_ablation_first_fix_scale=4_e200')
-parser.add_argument('--epoch', default=200, type=int, help='max epoch')
-parser.add_argument('--AR_epoch',  default=100, type=int, help='epochs for the first stage')
+parser.add_argument('--name', type=str, default='GASA_e400_s8')
+parser.add_argument('--epoch', default=400, type=int, help='max epoch')
+parser.add_argument('--AR_epoch',  default=200, type=int, help='epochs for the first stage')
 parser.add_argument('--eval_interval',  default=10, type=int, help='eval interval')
 parser.add_argument('--checkpoint',  default='scratch', type=str, help='checkpoint to use')
-parser.add_argument('--scale',  default=4, type=int, help='scale')
+parser.add_argument('--scale',  default=8, type=int, help='scale')
 parser.add_argument('--interpolation',  default='bicubic', type=str, help='interpolation method to generate lr depth')
 parser.add_argument('--lr',  default=0.0001, type=float, help='learning rate')
 # parser.add_argument('--lr_step',  default=1, type=float, help='learning rate decay step')
@@ -100,10 +100,9 @@ dataset = get_dataset(args.name, args.dataset)
 
 if args.model in ['GASA']:
     if not args.test:
-        train_dataset = dataset(root=args.data_root, split='train', scale=args.scale, downsample=args.interpolation, augment=True, to_pixel=True, sample_q=args.sample_q, input_size=args.input_size, noisy=args.noisy, if_AR=False)
-        train_dataset_vary = dataset(root=args.data_root, split='train', scale=args.scale, downsample=args.interpolation, augment=True, to_pixel=True, sample_q=args.sample_q, input_size=args.input_size, noisy=args.noisy, if_AR=True)
-    else:
-        test_dataset = dataset(root=args.data_root, split='test', scale=args.scale, downsample=args.interpolation, augment=False, to_pixel=True, sample_q=None) # full image
+        train_dataset = dataset(root=args.data_root, split='train', scale=args.scale, downsample=args.interpolation, augment=True, to_pixel=True, sample_q=args.sample_q, input_size=args.input_size, if_AR=False)
+        train_dataset_vary = dataset(root=args.data_root, split='train', scale=args.scale, downsample=args.interpolation, augment=True, to_pixel=True, sample_q=args.sample_q, input_size=args.input_size,  if_AR=True)
+    test_dataset = dataset(root=args.data_root, split='test', scale=args.scale, downsample=args.interpolation, augment=False, to_pixel=True, sample_q=None) # full image
 else:
     raise NotImplementedError(f'Dataset for model type {args.model} not found')
 

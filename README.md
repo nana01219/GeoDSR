@@ -1,6 +1,6 @@
 # GeoDSR
 ## Learning Continuous Depth Representation via Geometric Spatial Aggregator
-## Accepted by AAAI 2023 [[Paper]](https://arxiv.org/abs/2012.09700)
+## Accepted by AAAI 2023 
 Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 
 \* Equal contribution
@@ -18,12 +18,29 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 - python3.7+
 - pytorch1.9+
 - torchvision
-- Nvidia apex
+- [Nvidia Apex](https://github.com/NVIDIA/apex) (python-only build is ok.)
 
-## Usage
-### Pretrained Models:
 
-## Training
+### Dataset
+We follow [Tang et al.](https://github.com/ashawkey/jiif) and use the same datasets. Please refer to [here](https://github.com/ashawkey/jiif/blob/main/data/prepare_data.md) to download the preprocessed dataset and extract them into `data/` folder.
+
+### Pretrained Models
+- Baidu Netdisk (百度网盘)：https://pan.baidu.com/s/1e2rLQFqVHIy2ZZG922XNTA 
+Extraction Code (提取码)：xu7e
+
+Please put the model under `workspace/checkpoints` folder.
+
+### Train
+```
+python main.py
+```
+### Test
+```
+bash test.sh
+```
+
+
+
 
 ## Licesnse
 For academic and non-commercial use only. The whole project is under the MIT license. See [LICENSE](https://github.com/nana01219/GeoDSR/blob/main/LICENSE) for additional details.
@@ -36,10 +53,8 @@ If you find this project useful in your research, please consider citing:
 
 ```
 
-## Contact
-Please concat Xiaohang Wang [email](mailto:xygz2014010003@sjtu.edu.cn), Xuanhong Chen [email](mailto:xuanhongchenzju@outlook.com) for questions about the paper. 
-
 ## Ackownledgements
+This code is built based on [JIIF](https://github.com/ashawkey/jiif). We thank the authors for sharing the codes.
 
 ## Related Projects
 
