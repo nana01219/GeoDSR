@@ -1,6 +1,6 @@
 # GeoDSR
 ## Learning Continuous Depth Representation via Geometric Spatial Aggregator
-## Accepted by AAAI 2023 [[Paper]](https://arxiv.org/abs/2012.09700)
+## Accepted to AAAI 2023 [[Paper]](https://arxiv.org/abs/2012.09700)
 Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 
 \* Equal contribution
