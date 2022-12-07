@@ -23,11 +23,11 @@ OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=3 python main.py  --test --checkpoint ${c
 
 # echo 'RGBZ'
 # echo '4'
-# OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=3 python main.py  --test --checkpoint ${ck}   --name ${model} --model JIIF  --dataset Luz --scale 4 --data_root ./data/depth_enhance/02_RGBZ_Dataset
+# OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=3 python main.py  --test --checkpoint ${ck}   --name ${model} --model GASA  --dataset Luz --scale 4 --data_root ./data/depth_enhance/02_RGBZ_Dataset
 # echo '8'
-# OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=3 python main.py  --test --checkpoint ${ck}  --name ${model} --model JIIF  --dataset Luz --scale 8 --data_root ./data/depth_enhance/02_RGBZ_Dataset
+# OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=3 python main.py  --test --checkpoint ${ck}  --name ${model} --model GASA  --dataset Luz --scale 8 --data_root ./data/depth_enhance/02_RGBZ_Dataset
 # echo '16'
-# OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=3 python main.py  --test --checkpoint ${ck}   --name ${model} --model JIIF  --dataset Luz --scale 16 --data_root ./data/depth_enhance/02_RGBZ_Dataset
+# OMP_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=3 python main.py  --test --checkpoint ${ck}   --name ${model} --model GASA  --dataset Luz --scale 16 --data_root ./data/depth_enhance/02_RGBZ_Dataset
 
 echo 'NYU'
 echo '4'
