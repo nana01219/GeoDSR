@@ -51,13 +51,9 @@ If you find this project useful in your research, please consider citing:
 
 ```
 @misc{GeoDSR,
-  
   author = {Wang, Xiaohang and Chen, Xuanhong and Ni, Bingbing and Tong, Zhengyan and Wang, Hang},
-  
   title = {Learning Continuous Depth Representation via Geometric Spatial Aggregator},
-  
   publisher = {arXiv},
-  
   year = {2022}
 }
 
@@ -80,6 +76,6 @@ Learn about our other projects
 
 [[Knowledge Style Transfer]](https://github.com/AceSix/Knowledge_Transfer);
 
-[[SimSwap]](https://github.com/neuralchen/SimSwap): popular face swapping project;
+[[SimSwap]](https://github.com/neuralchen/SimSwap): most popular face swapping project;
 
 [[ASMA-GAN]](https://github.com/neuralchen/ASMAGAN): high-quality style transfer project;
