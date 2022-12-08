@@ -11,9 +11,10 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 
 **The official repository with Pytorch**
 
-[![PDF](/docs/img/geodsrlogo.png)](https://github.com/nana01219/GeoDSR)
+[![logo](/docs/img/geodsrlogo.png)](https://github.com/nana01219/GeoDSR)
 
-
+## Results:
+[![results](/docs/img/code.jpg)](https://github.com/nana01219/GeoDSR)
 ## Dependencies
 - python3.7+
 - pytorch1.9+
