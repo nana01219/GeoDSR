@@ -78,7 +78,7 @@ print("****************************")
 
 # model
 if args.model == 'GASA':
-    model = GASA_model(args,  feat_dim = args.depth_c, guide_dim = args.rgb_c, block_num =args.block_num )
+    model = GASA_model(args,  feat_dim = args.depth_c, guide_dim = args.rgb_c, block_num = args.block_num )
 else:
     raise NotImplementedError(f'Model {args.model} not found')
 
