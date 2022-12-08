@@ -1,6 +1,6 @@
 # GeoDSR
 ## Learning Continuous Depth Representation via Geometric Spatial Aggregator
-## Accepted by AAAI 2023 [[Paper]](http://arxiv.org/abs/2212.03499)
+## Accepted to AAAI 2023 [[Paper]](http://arxiv.org/abs/2212.03499)
 Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 
 \* Equal contribution
@@ -11,7 +11,7 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 
 **The official repository with Pytorch**
 
-[![PDF](/docs/img/code.jpg)](https://github.com/nana01219/GeoDSR)
+[![PDF](/docs/img/geodsrlogo.png)](https://github.com/nana01219/GeoDSR)
 
 
 ## Dependencies
@@ -50,6 +50,16 @@ For academic and non-commercial use only. The whole project is under the MIT lic
 If you find this project useful in your research, please consider citing:
 
 ```
+@misc{GeoDSR,
+  
+  author = {Wang, Xiaohang and Chen, Xuanhong and Ni, Bingbing and Tong, Zhengyan and Wang, Hang},
+  
+  title = {Learning Continuous Depth Representation via Geometric Spatial Aggregator},
+  
+  publisher = {arXiv},
+  
+  year = {2022}
+}
 
 ```
 
