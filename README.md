@@ -29,6 +29,8 @@ We follow [Tang et al.](https://github.com/ashawkey/jiif) and use the same datas
 - Baidu Netdisk (百度网盘)：https://pan.baidu.com/s/1e2rLQFqVHIy2ZZG922XNTA 
 - Extraction Code (提取码)：xu7e
 
+- Google Drive: https://drive.google.com/drive/folders/1cIvA_AYh0fve_pDhN6timhCeN6A7MhD2?usp=share_link
+
 Please put the model under `workspace/checkpoints` folder.
 
 ### Train
