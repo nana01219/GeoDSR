@@ -8,11 +8,10 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 \*\* Corresponding author
 
 
-
 **The official repository with Pytorch**
 
-- This work is for aribitrary-scale RGB-guided depth map super-resolution (DSR).
-Depth map super-resolution (DSR) has been a fundamental task for 3D computer vision. While arbitrary scale DSR is a more realistic setting in this scenario, previous approaches predominantly suffer from the issue of inefficient real-numbered scale upsampling. To explicitly address this issue, we propose a novel continuous depth representation for DSR. The heart of this representation is our proposed Geometric Spatial Aggregator (GSA), which exploits a distance field modulated by arbitrarily upsampled target gridding, through which the geometric information is explicitly introduced into feature aggregation and target generation. Furthermore, bricking with GSA, we present a transformerstyle backbone named GeoDSR, which possesses a principled way to construct the functional mapping between local coordinates and the high-resolution output results, empowering our model with the advantage of arbitrary shape transformation ready to help diverse zooming demand. Extensive experimental results on standard depth map benchmarks, e.g., NYU v2, have demonstrated that the proposed framework achieves significant restoration gain in arbitrary scale depth map super-resolution compared with the prior art.
+- This work is for aribitrary-scale RGB-guided depth map super-resolution (DSR). Depth map super-resolution (DSR) has been a fundamental task for 3D computer vision. While arbitrary scale DSR is a more realistic setting in this scenario, previous approaches predominantly suffer from the issue of inefficient real-numbered scale upsampling. 
+- To explicitly address this issue, we propose a novel continuous depth representation for DSR. The heart of this representation is our proposed Geometric Spatial Aggregator (GSA), which exploits a distance field modulated by arbitrarily upsampled target gridding, through which the geometric information is explicitly introduced into feature aggregation and target generation. Furthermore, bricking with GSA, we present a transformerstyle backbone named GeoDSR, which possesses a principled way to construct the functional mapping between local coordinates and the high-resolution output results, empowering our model with the advantage of arbitrary shape transformation ready to help diverse zooming demand. Extensive experimental results on standard depth map benchmarks, e.g., NYU v2, have demonstrated that the proposed framework achieves significant restoration gain in arbitrary-scale depth map super-resolution compared with the prior art.
 
 [![logo](/docs/img/geodsrlogo.png)](https://github.com/nana01219/GeoDSR)
 
@@ -32,6 +31,8 @@ We follow [Tang et al.](https://github.com/ashawkey/jiif) and use the same datas
 ### Pretrained Models
 - Baidu Netdisk (百度网盘)：https://pan.baidu.com/s/1e2rLQFqVHIy2ZZG922XNTA 
 - Extraction Code (提取码)：xu7e
+
+- Google Drive: https://drive.google.com/drive/folders/1cIvA_AYh0fve_pDhN6timhCeN6A7MhD2?usp=share_link
 
 Please put the model under `workspace/checkpoints` folder.
 
