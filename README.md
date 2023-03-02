@@ -11,6 +11,9 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 
 **The official repository with Pytorch**
 
+- This work is for arbitrary-scale RGB-guided depth map super-resolution (DSR).
+- Depth map super-resolution (DSR) has been a fundamental task for 3D computer vision. While arbitrary scale DSR is a more realistic setting in this scenario, previous approaches predominantly suffer from the issue of inefficient real-numbered scale upsampling.
+
 [![logo](/docs/img/geodsrlogo.png)](https://github.com/nana01219/GeoDSR)
 
 ## Results:
