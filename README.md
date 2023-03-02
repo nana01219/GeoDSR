@@ -8,7 +8,6 @@ Xiaohang Wang*, Xuanhong Chen*, Bingbing Ni**, Zhengyan Tong, Hang Wang
 \*\* Corresponding author
 
 
-
 **The official repository with Pytorch**
 
 - This work is for arbitrary-scale RGB-guided depth map super-resolution (DSR).
@@ -44,7 +43,6 @@ python main.py
 ```
 bash test.sh
 ```
-
 
 
 
