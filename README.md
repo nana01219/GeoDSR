@@ -69,15 +69,13 @@ This code is built based on [JIIF](https://github.com/ashawkey/jiif). We thank t
 
 Learn about our other projects 
 
+[[EQSR]](https://github.com/neuralchen/EQSR): high-quality arbitrary-scale image super-resolution;
+
 [[VGGFace2-HQ]](https://github.com/NNNNAI/VGGFace2-HQ): high resolution face dataset VGGFace2-HQ;
 
 [[RainNet]](https://neuralchen.github.io/RainNet);
 
 [[Sketch Generation]](https://github.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale);
-
-[[CooGAN]](https://github.com/neuralchen/CooGAN);
-
-[[Knowledge Style Transfer]](https://github.com/AceSix/Knowledge_Transfer);
 
 [[SimSwap]](https://github.com/neuralchen/SimSwap): most popular face swapping project;
 
